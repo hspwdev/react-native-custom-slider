@@ -8,11 +8,12 @@ import {
   StyleSheet,
   PanResponder,
   View,
-  Easing,
-  ViewPropTypes,
+  Easing
 } from 'react-native';
 
 import PropTypes from 'prop-types';
+
+import {ViewPropTypes } from 'deprecated-react-native-prop-types'
 
 var TRACK_SIZE = 4;
 var THUMB_SIZE = 20;
